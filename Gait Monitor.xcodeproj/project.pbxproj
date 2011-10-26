@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415D0577145797C70061E778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D0576145797C70061E778 /* UIKit.framework */; };
+		415D0579145797C70061E778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D0578145797C70061E778 /* Foundation.framework */; };
+		415D057B145797C70061E778 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D057A145797C70061E778 /* CoreGraphics.framework */; };
+		415D0581145797C80061E778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415D057F145797C80061E778 /* InfoPlist.strings */; };
+		415D0583145797C80061E778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D0582145797C80061E778 /* main.m */; };
+		415D0587145797C80061E778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D0586145797C80061E778 /* AppDelegate.m */; };
+		415D058A145797C80061E778 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D0589145797C80061E778 /* MainViewController.m */; };
+		415D058D145797C80061E778 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D058C145797C80061E778 /* FlipsideViewController.m */; };
+		415D0590145797C80061E778 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D058E145797C80061E778 /* MainViewController.xib */; };
+		415D0593145797C80061E778 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D0591145797C80061E778 /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		415D0572145797C70061E778 /* Gait Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gait Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		415D0576145797C70061E778 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		415D0578145797C70061E778 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		415D057A145797C70061E778 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		415D057E145797C70061E778 /* Gait Monitor-Info.plist */ = {isa = PBXFileReference; path = "Gait Monitor-Info.plist"; sourceTree = "<group>"; };
+		415D0580145797C80061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415D0582145797C80061E778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		415D0584145797C80061E778 /* Gait Monitor-Prefix.pch */ = {isa = PBXFileReference; path = "Gait Monitor-Prefix.pch"; sourceTree = "<group>"; };
+		415D0585145797C80061E778 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		415D0586145797C80061E778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		415D0588145797C80061E778 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		415D0589145797C80061E778 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		415D058B145797C80061E778 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		415D058C145797C80061E778 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		415D058F145797C80061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		415D0592145797C80061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415D056F145797C70061E778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415D0577145797C70061E778 /* UIKit.framework in Frameworks */,
+				415D0579145797C70061E778 /* Foundation.framework in Frameworks */,
+				415D057B145797C70061E778 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415D0567145797C70061E778 = {
+			isa = PBXGroup;
+			children = (
+				415D057C145797C70061E778 /* Gait Monitor */,
+				415D0575145797C70061E778 /* Frameworks */,
+				415D0573145797C70061E778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415D0573145797C70061E778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415D0572145797C70061E778 /* Gait Monitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415D0575145797C70061E778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415D0576145797C70061E778 /* UIKit.framework */,
+				415D0578145797C70061E778 /* Foundation.framework */,
+				415D057A145797C70061E778 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415D057C145797C70061E778 /* Gait Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				415D0585145797C80061E778 /* AppDelegate.h */,
+				415D0586145797C80061E778 /* AppDelegate.m */,
+				415D0588145797C80061E778 /* MainViewController.h */,
+				415D0589145797C80061E778 /* MainViewController.m */,
+				415D058B145797C80061E778 /* FlipsideViewController.h */,
+				415D058C145797C80061E778 /* FlipsideViewController.m */,
+				415D058E145797C80061E778 /* MainViewController.xib */,
+				415D0591145797C80061E778 /* FlipsideViewController.xib */,
+				415D057D145797C70061E778 /* Supporting Files */,
+			);
+			path = "Gait Monitor";
+			sourceTree = "<group>";
+		};
+		415D057D145797C70061E778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415D057E145797C70061E778 /* Gait Monitor-Info.plist */,
+				415D057F145797C80061E778 /* InfoPlist.strings */,
+				415D0582145797C80061E778 /* main.m */,
+				415D0584145797C80061E778 /* Gait Monitor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415D0571145797C70061E778 /* Gait Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415D0596145797C80061E778 /* Build configuration list for PBXNativeTarget "Gait Monitor" */;
+			buildPhases = (
+				415D056E145797C70061E778 /* Sources */,
+				415D056F145797C70061E778 /* Frameworks */,
+				415D0570145797C70061E778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gait Monitor";
+			productName = "Gait Monitor";
+			productReference = 415D0572145797C70061E778 /* Gait Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415D0569145797C70061E778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Jade Hochschule";
+			};
+			buildConfigurationList = 415D056C145797C70061E778 /* Build configuration list for PBXProject "Gait Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 415D0567145797C70061E778;
+			productRefGroup = 415D0573145797C70061E778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415D0571145797C70061E778 /* Gait Monitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415D0570145797C70061E778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415D0581145797C80061E778 /* InfoPlist.strings in Resources */,
+				415D0590145797C80061E778 /* MainViewController.xib in Resources */,
+				415D0593145797C80061E778 /* FlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415D056E145797C70061E778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415D0583145797C80061E778 /* main.m in Sources */,
+				415D0587145797C80061E778 /* AppDelegate.m in Sources */,
+				415D058A145797C80061E778 /* MainViewController.m in Sources */,
+				415D058D145797C80061E778 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		415D057F145797C80061E778 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415D0580145797C80061E778 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		415D058E145797C80061E778 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415D058F145797C80061E778 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		415D0591145797C80061E778 /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415D0592145797C80061E778 /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415D0594145797C80061E778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		415D0595145797C80061E778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415D0597145797C80061E778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gait Monitor/Gait Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Gait Monitor/Gait Monitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		415D0598145797C80061E778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gait Monitor/Gait Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Gait Monitor/Gait Monitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415D056C145797C70061E778 /* Build configuration list for PBXProject "Gait Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415D0594145797C80061E778 /* Debug */,
+				415D0595145797C80061E778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415D0596145797C80061E778 /* Build configuration list for PBXNativeTarget "Gait Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415D0597145797C80061E778 /* Debug */,
+				415D0598145797C80061E778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415D0569145797C70061E778 /* Project object */;
+}

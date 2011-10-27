@@ -12,11 +12,29 @@
 		415D057B145797C70061E778 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D057A145797C70061E778 /* CoreGraphics.framework */; };
 		415D0581145797C80061E778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415D057F145797C80061E778 /* InfoPlist.strings */; };
 		415D0583145797C80061E778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D0582145797C80061E778 /* main.m */; };
-		415D0587145797C80061E778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D0586145797C80061E778 /* AppDelegate.m */; };
-		415D058A145797C80061E778 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D0589145797C80061E778 /* MainViewController.m */; };
-		415D058D145797C80061E778 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D058C145797C80061E778 /* FlipsideViewController.m */; };
-		415D0590145797C80061E778 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D058E145797C80061E778 /* MainViewController.xib */; };
-		415D0593145797C80061E778 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D0591145797C80061E778 /* FlipsideViewController.xib */; };
+		415D05AD145798720061E778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415D059A145798720061E778 /* InfoPlist.strings */; };
+		415D05AE145798720061E778 /* releaseFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D059C145798720061E778 /* releaseFlipsideViewController.xib */; };
+		415D05AF145798720061E778 /* releaseMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D059E145798720061E778 /* releaseMainViewController.xib */; };
+		415D05B0145798720061E778 /* Gait Monitor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 415D05A0145798720061E778 /* Gait Monitor-Info.plist */; };
+		415D05B1145798720061E778 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05A3145798720061E778 /* Record.m */; };
+		415D05B2145798720061E778 /* releaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05A5145798720061E778 /* releaseAppDelegate.m */; };
+		415D05B3145798720061E778 /* releaseFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05A7145798720061E778 /* releaseFlipsideViewController.m */; };
+		415D05B4145798720061E778 /* releaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05A9145798720061E778 /* releaseMainViewController.m */; };
+		415D05B5145798720061E778 /* releaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05AB145798720061E778 /* releaseRecordViewController.m */; };
+		415D05B6145798720061E778 /* releaseRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D05AC145798720061E778 /* releaseRecordViewController.xib */; };
+		415D05B8145798810061E778 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D05B7145798810061E778 /* CoreLocation.framework */; };
+		415D05BA145798880061E778 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D05B9145798880061E778 /* AudioToolbox.framework */; };
+		415D05BC145798910061E778 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D05BB145798910061E778 /* MessageUI.framework */; };
+		415D05C11457993D0061E778 /* pleaseStartWalking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 415D05BD1457993D0061E778 /* pleaseStartWalking.wav */; };
+		415D05C21457993D0061E778 /* getReady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 415D05BE1457993D0061E778 /* getReady.wav */; };
+		415D05C31457993D0061E778 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 415D05BF1457993D0061E778 /* error.wav */; };
+		415D05C41457993D0061E778 /* recordingDone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C01457993D0061E778 /* recordingDone.wav */; };
+		415D05CB14579E070061E778 /* age.plist in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C514579E060061E778 /* age.plist */; };
+		415D05CC14579E070061E778 /* height.plist in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C614579E060061E778 /* height.plist */; };
+		415D05CD14579E070061E778 /* homescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C714579E070061E778 /* homescreen.png */; };
+		415D05CE14579E070061E778 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C814579E070061E778 /* Icon.png */; };
+		415D05CF14579E070061E778 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C914579E070061E778 /* Icon@2x.png */; };
+		415D05D014579E070061E778 /* weight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 415D05CA14579E070061E778 /* weight.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +42,37 @@
 		415D0576145797C70061E778 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		415D0578145797C70061E778 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		415D057A145797C70061E778 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		415D057E145797C70061E778 /* Gait Monitor-Info.plist */ = {isa = PBXFileReference; path = "Gait Monitor-Info.plist"; sourceTree = "<group>"; };
 		415D0580145797C80061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		415D0582145797C80061E778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		415D0584145797C80061E778 /* Gait Monitor-Prefix.pch */ = {isa = PBXFileReference; path = "Gait Monitor-Prefix.pch"; sourceTree = "<group>"; };
-		415D0585145797C80061E778 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		415D0586145797C80061E778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		415D0588145797C80061E778 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
-		415D0589145797C80061E778 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		415D058B145797C80061E778 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		415D058C145797C80061E778 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
-		415D058F145797C80061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
-		415D0592145797C80061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		415D059B145798720061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		415D059D145798720061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = releaseFlipsideViewController.xib; sourceTree = "<group>"; };
+		415D059F145798720061E778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = releaseMainViewController.xib; sourceTree = "<group>"; };
+		415D05A0145798720061E778 /* Gait Monitor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Gait Monitor-Info.plist"; sourceTree = "<group>"; };
+		415D05A1145798720061E778 /* Gait Monitor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Gait Monitor-Prefix.pch"; sourceTree = "<group>"; };
+		415D05A2145798720061E778 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		415D05A3145798720061E778 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		415D05A4145798720061E778 /* releaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = releaseAppDelegate.h; sourceTree = "<group>"; };
+		415D05A5145798720061E778 /* releaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseAppDelegate.m; sourceTree = "<group>"; };
+		415D05A6145798720061E778 /* releaseFlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = releaseFlipsideViewController.h; sourceTree = "<group>"; };
+		415D05A7145798720061E778 /* releaseFlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseFlipsideViewController.m; sourceTree = "<group>"; };
+		415D05A8145798720061E778 /* releaseMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = releaseMainViewController.h; sourceTree = "<group>"; };
+		415D05A9145798720061E778 /* releaseMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseMainViewController.m; sourceTree = "<group>"; };
+		415D05AA145798720061E778 /* releaseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = releaseRecordViewController.h; sourceTree = "<group>"; };
+		415D05AB145798720061E778 /* releaseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseRecordViewController.m; sourceTree = "<group>"; };
+		415D05AC145798720061E778 /* releaseRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = releaseRecordViewController.xib; sourceTree = "<group>"; };
+		415D05B7145798810061E778 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		415D05B9145798880061E778 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		415D05BB145798910061E778 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		415D05BD1457993D0061E778 /* pleaseStartWalking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pleaseStartWalking.wav; sourceTree = "<group>"; };
+		415D05BE1457993D0061E778 /* getReady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = getReady.wav; sourceTree = "<group>"; };
+		415D05BF1457993D0061E778 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		415D05C01457993D0061E778 /* recordingDone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = recordingDone.wav; sourceTree = "<group>"; };
+		415D05C514579E060061E778 /* age.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = age.plist; sourceTree = "<group>"; };
+		415D05C614579E060061E778 /* height.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = height.plist; sourceTree = "<group>"; };
+		415D05C714579E070061E778 /* homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen.png; sourceTree = "<group>"; };
+		415D05C814579E070061E778 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		415D05C914579E070061E778 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		415D05CA14579E070061E778 /* weight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weight.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415D05BC145798910061E778 /* MessageUI.framework in Frameworks */,
+				415D05BA145798880061E778 /* AudioToolbox.framework in Frameworks */,
+				415D05B8145798810061E778 /* CoreLocation.framework in Frameworks */,
 				415D0577145797C70061E778 /* UIKit.framework in Frameworks */,
 				415D0579145797C70061E778 /* Foundation.framework in Frameworks */,
 				415D057B145797C70061E778 /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +112,9 @@
 		415D0575145797C70061E778 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				415D05BB145798910061E778 /* MessageUI.framework */,
+				415D05B9145798880061E778 /* AudioToolbox.framework */,
+				415D05B7145798810061E778 /* CoreLocation.framework */,
 				415D0576145797C70061E778 /* UIKit.framework */,
 				415D0578145797C70061E778 /* Foundation.framework */,
 				415D057A145797C70061E778 /* CoreGraphics.framework */,
@@ -82,14 +125,20 @@
 		415D057C145797C70061E778 /* Gait Monitor */ = {
 			isa = PBXGroup;
 			children = (
-				415D0585145797C80061E778 /* AppDelegate.h */,
-				415D0586145797C80061E778 /* AppDelegate.m */,
-				415D0588145797C80061E778 /* MainViewController.h */,
-				415D0589145797C80061E778 /* MainViewController.m */,
-				415D058B145797C80061E778 /* FlipsideViewController.h */,
-				415D058C145797C80061E778 /* FlipsideViewController.m */,
-				415D058E145797C80061E778 /* MainViewController.xib */,
-				415D0591145797C80061E778 /* FlipsideViewController.xib */,
+				415D05A0145798720061E778 /* Gait Monitor-Info.plist */,
+				415D05A1145798720061E778 /* Gait Monitor-Prefix.pch */,
+				415D05D614579EA20061E778 /* plists */,
+				415D05D514579E660061E778 /* Sounds */,
+				415D05D414579E4A0061E778 /* MainView */,
+				415D05D314579E470061E778 /* FlipView */,
+				415D05D214579E450061E778 /* Record */,
+				415D05D114579E400061E778 /* TableView */,
+				415D0599145798720061E778 /* en.lproj */,
+				415D05A4145798720061E778 /* releaseAppDelegate.h */,
+				415D05A5145798720061E778 /* releaseAppDelegate.m */,
+				415D05C714579E070061E778 /* homescreen.png */,
+				415D05C914579E070061E778 /* Icon@2x.png */,
+				415D05C814579E070061E778 /* Icon.png */,
 				415D057D145797C70061E778 /* Supporting Files */,
 			);
 			path = "Gait Monitor";
@@ -98,12 +147,78 @@
 		415D057D145797C70061E778 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				415D057E145797C70061E778 /* Gait Monitor-Info.plist */,
 				415D057F145797C80061E778 /* InfoPlist.strings */,
 				415D0582145797C80061E778 /* main.m */,
-				415D0584145797C80061E778 /* Gait Monitor-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415D0599145798720061E778 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				415D059A145798720061E778 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		415D05D114579E400061E778 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				415D05AA145798720061E778 /* releaseRecordViewController.h */,
+				415D05AB145798720061E778 /* releaseRecordViewController.m */,
+				415D05AC145798720061E778 /* releaseRecordViewController.xib */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		415D05D214579E450061E778 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				415D05A2145798720061E778 /* Record.h */,
+				415D05A3145798720061E778 /* Record.m */,
+			);
+			name = Record;
+			sourceTree = "<group>";
+		};
+		415D05D314579E470061E778 /* FlipView */ = {
+			isa = PBXGroup;
+			children = (
+				415D059C145798720061E778 /* releaseFlipsideViewController.xib */,
+				415D05A6145798720061E778 /* releaseFlipsideViewController.h */,
+				415D05A7145798720061E778 /* releaseFlipsideViewController.m */,
+			);
+			name = FlipView;
+			sourceTree = "<group>";
+		};
+		415D05D414579E4A0061E778 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				415D059E145798720061E778 /* releaseMainViewController.xib */,
+				415D05A8145798720061E778 /* releaseMainViewController.h */,
+				415D05A9145798720061E778 /* releaseMainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		415D05D514579E660061E778 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				415D05BD1457993D0061E778 /* pleaseStartWalking.wav */,
+				415D05BE1457993D0061E778 /* getReady.wav */,
+				415D05BF1457993D0061E778 /* error.wav */,
+				415D05C01457993D0061E778 /* recordingDone.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		415D05D614579EA20061E778 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				415D05CA14579E070061E778 /* weight.plist */,
+				415D05C514579E060061E778 /* age.plist */,
+				415D05C614579E060061E778 /* height.plist */,
+			);
+			name = plists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +273,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				415D0581145797C80061E778 /* InfoPlist.strings in Resources */,
-				415D0590145797C80061E778 /* MainViewController.xib in Resources */,
-				415D0593145797C80061E778 /* FlipsideViewController.xib in Resources */,
+				415D05AD145798720061E778 /* InfoPlist.strings in Resources */,
+				415D05AE145798720061E778 /* releaseFlipsideViewController.xib in Resources */,
+				415D05AF145798720061E778 /* releaseMainViewController.xib in Resources */,
+				415D05B0145798720061E778 /* Gait Monitor-Info.plist in Resources */,
+				415D05B6145798720061E778 /* releaseRecordViewController.xib in Resources */,
+				415D05C11457993D0061E778 /* pleaseStartWalking.wav in Resources */,
+				415D05C21457993D0061E778 /* getReady.wav in Resources */,
+				415D05C31457993D0061E778 /* error.wav in Resources */,
+				415D05C41457993D0061E778 /* recordingDone.wav in Resources */,
+				415D05CB14579E070061E778 /* age.plist in Resources */,
+				415D05CC14579E070061E778 /* height.plist in Resources */,
+				415D05CD14579E070061E778 /* homescreen.png in Resources */,
+				415D05CE14579E070061E778 /* Icon.png in Resources */,
+				415D05CF14579E070061E778 /* Icon@2x.png in Resources */,
+				415D05D014579E070061E778 /* weight.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,9 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				415D0583145797C80061E778 /* main.m in Sources */,
-				415D0587145797C80061E778 /* AppDelegate.m in Sources */,
-				415D058A145797C80061E778 /* MainViewController.m in Sources */,
-				415D058D145797C80061E778 /* FlipsideViewController.m in Sources */,
+				415D05B1145798720061E778 /* Record.m in Sources */,
+				415D05B2145798720061E778 /* releaseAppDelegate.m in Sources */,
+				415D05B3145798720061E778 /* releaseFlipsideViewController.m in Sources */,
+				415D05B4145798720061E778 /* releaseMainViewController.m in Sources */,
+				415D05B5145798720061E778 /* releaseRecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,20 +318,30 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		415D058E145797C80061E778 /* MainViewController.xib */ = {
+		415D059A145798720061E778 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				415D058F145797C80061E778 /* en */,
+				415D059B145798720061E778 /* en */,
 			);
-			name = MainViewController.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		415D0591145797C80061E778 /* FlipsideViewController.xib */ = {
+		415D059C145798720061E778 /* releaseFlipsideViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				415D0592145797C80061E778 /* en */,
+				415D059D145798720061E778 /* en */,
 			);
-			name = FlipsideViewController.xib;
+			name = releaseFlipsideViewController.xib;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		415D059E145798720061E778 /* releaseMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415D059F145798720061E778 /* en */,
+			);
+			name = releaseMainViewController.xib;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -256,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gait Monitor/Gait Monitor-Prefix.pch";
 				INFOPLIST_FILE = "Gait Monitor/Gait Monitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gait Monitor/Gait Monitor-Prefix.pch";
 				INFOPLIST_FILE = "Gait Monitor/Gait Monitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

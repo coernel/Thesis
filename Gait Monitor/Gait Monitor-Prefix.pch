@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'Gait Monitor' target in the 'Gait Monitor' project
+// Prefix header for all source files of the 'GaitMonitor for iOS' target in the 'GaitMonitor for iOS' project
 //
 
 #import <Availability.h>

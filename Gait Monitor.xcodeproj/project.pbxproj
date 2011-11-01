@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415BA472146038C00032FCF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415BA471146038C00032FCF6 /* CoreData.framework */; };
 		415D0577145797C70061E778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D0576145797C70061E778 /* UIKit.framework */; };
 		415D0579145797C70061E778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D0578145797C70061E778 /* Foundation.framework */; };
 		415D057B145797C70061E778 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D057A145797C70061E778 /* CoreGraphics.framework */; };
@@ -21,7 +22,6 @@
 		415D05B3145798720061E778 /* releaseFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05A7145798720061E778 /* releaseFlipsideViewController.m */; };
 		415D05B4145798720061E778 /* releaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05A9145798720061E778 /* releaseMainViewController.m */; };
 		415D05B5145798720061E778 /* releaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415D05AB145798720061E778 /* releaseRecordViewController.m */; };
-		415D05B6145798720061E778 /* releaseRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D05AC145798720061E778 /* releaseRecordViewController.xib */; };
 		415D05B8145798810061E778 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D05B7145798810061E778 /* CoreLocation.framework */; };
 		415D05BA145798880061E778 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D05B9145798880061E778 /* AudioToolbox.framework */; };
 		415D05BC145798910061E778 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D05BB145798910061E778 /* MessageUI.framework */; };
@@ -35,9 +35,12 @@
 		415D05CE14579E070061E778 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C814579E070061E778 /* Icon.png */; };
 		415D05CF14579E070061E778 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415D05C914579E070061E778 /* Icon@2x.png */; };
 		415D05D014579E070061E778 /* weight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 415D05CA14579E070061E778 /* weight.plist */; };
+		415D06E0145AE9210061E778 /* releaseRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415D06DF145AE91E0061E778 /* releaseRecordViewController.xib */; };
+		41A4D9FA14603A710042DBC4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A4D9F814603A710042DBC4 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		415BA471146038C00032FCF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		415D0572145797C70061E778 /* Gait Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gait Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415D0576145797C70061E778 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		415D0578145797C70061E778 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +62,6 @@
 		415D05A9145798720061E778 /* releaseMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseMainViewController.m; sourceTree = "<group>"; };
 		415D05AA145798720061E778 /* releaseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = releaseRecordViewController.h; sourceTree = "<group>"; };
 		415D05AB145798720061E778 /* releaseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseRecordViewController.m; sourceTree = "<group>"; };
-		415D05AC145798720061E778 /* releaseRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = releaseRecordViewController.xib; sourceTree = "<group>"; };
 		415D05B7145798810061E778 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		415D05B9145798880061E778 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		415D05BB145798910061E778 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -73,6 +75,8 @@
 		415D05C814579E070061E778 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		415D05C914579E070061E778 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		415D05CA14579E070061E778 /* weight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weight.plist; sourceTree = "<group>"; };
+		415D06DF145AE91E0061E778 /* releaseRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = releaseRecordViewController.xib; sourceTree = "<group>"; };
+		41A4D9F914603A710042DBC4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415BA472146038C00032FCF6 /* CoreData.framework in Frameworks */,
 				415D05BC145798910061E778 /* MessageUI.framework in Frameworks */,
 				415D05BA145798880061E778 /* AudioToolbox.framework in Frameworks */,
 				415D05B8145798810061E778 /* CoreLocation.framework in Frameworks */,
@@ -92,9 +97,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4154124E145B34FA00DC8ABB /* Chooserclasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chooserclasses;
+			sourceTree = "<group>";
+		};
 		415D0567145797C70061E778 = {
 			isa = PBXGroup;
 			children = (
+				41A4D9F814603A710042DBC4 /* Model.xcdatamodeld */,
+				415BA471146038C00032FCF6 /* CoreData.framework */,
 				415D057C145797C70061E778 /* Gait Monitor */,
 				415D0575145797C70061E778 /* Frameworks */,
 				415D0573145797C70061E778 /* Products */,
@@ -125,6 +139,7 @@
 		415D057C145797C70061E778 /* Gait Monitor */ = {
 			isa = PBXGroup;
 			children = (
+				4154124E145B34FA00DC8ABB /* Chooserclasses */,
 				415D05A0145798720061E778 /* Gait Monitor-Info.plist */,
 				415D05A1145798720061E778 /* Gait Monitor-Prefix.pch */,
 				415D05D614579EA20061E778 /* plists */,
@@ -166,7 +181,6 @@
 			children = (
 				415D05AA145798720061E778 /* releaseRecordViewController.h */,
 				415D05AB145798720061E778 /* releaseRecordViewController.m */,
-				415D05AC145798720061E778 /* releaseRecordViewController.xib */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -174,6 +188,7 @@
 		415D05D214579E450061E778 /* Record */ = {
 			isa = PBXGroup;
 			children = (
+				415D06DF145AE91E0061E778 /* releaseRecordViewController.xib */,
 				415D05A2145798720061E778 /* Record.h */,
 				415D05A3145798720061E778 /* Record.m */,
 			);
@@ -277,7 +292,6 @@
 				415D05AE145798720061E778 /* releaseFlipsideViewController.xib in Resources */,
 				415D05AF145798720061E778 /* releaseMainViewController.xib in Resources */,
 				415D05B0145798720061E778 /* Gait Monitor-Info.plist in Resources */,
-				415D05B6145798720061E778 /* releaseRecordViewController.xib in Resources */,
 				415D05C11457993D0061E778 /* pleaseStartWalking.wav in Resources */,
 				415D05C21457993D0061E778 /* getReady.wav in Resources */,
 				415D05C31457993D0061E778 /* error.wav in Resources */,
@@ -288,6 +302,7 @@
 				415D05CE14579E070061E778 /* Icon.png in Resources */,
 				415D05CF14579E070061E778 /* Icon@2x.png in Resources */,
 				415D05D014579E070061E778 /* weight.plist in Resources */,
+				415D06E0145AE9210061E778 /* releaseRecordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +319,7 @@
 				415D05B3145798720061E778 /* releaseFlipsideViewController.m in Sources */,
 				415D05B4145798720061E778 /* releaseMainViewController.m in Sources */,
 				415D05B5145798720061E778 /* releaseRecordViewController.m in Sources */,
+				41A4D9FA14603A710042DBC4 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +449,22 @@
 				415D0598145797C80061E778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41A4D9F814603A710042DBC4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41A4D9F914603A710042DBC4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 41A4D9F914603A710042DBC4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 415D0569145797C70061E778 /* Project object */;
 }

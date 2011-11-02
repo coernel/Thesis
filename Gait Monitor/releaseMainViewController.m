@@ -19,12 +19,9 @@
 @synthesize viewRecordsButton;
 @synthesize clearAllButton;
 
+@synthesize record;
 
-- (Record *)aRecord {
-    
-    return [[Record alloc] autorelease];
 
-}
 
 -(NSString *)dataFilePath { //load an the path to data.plist (creates it, if nonexistent)
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

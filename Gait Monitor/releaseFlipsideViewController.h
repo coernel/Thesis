@@ -53,8 +53,6 @@
 - (IBAction)recordStop;
 - (IBAction)startRecordAfterDelay;
 
--(void)useData:(Record *)aRecord;
-
 - (NSString *)dataFilePath;
 - (NSString *)fileName;
 - (NSString *)setFileLocation;
@@ -67,6 +65,8 @@
 
 @property (nonatomic, retain) CLLocation *startingLocation;
 @property (nonatomic, retain) CLLocationManager *locationManager;
+
+@property (retain) Record *record;
 
 
 

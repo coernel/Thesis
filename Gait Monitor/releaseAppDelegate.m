@@ -21,10 +21,19 @@
     // Override point for customization after application launch.
     self.mainViewController = [[releaseMainViewController alloc] initWithNibName:@"releaseMainViewController" bundle:nil];
     self.window.rootViewController = self.mainViewController;
+    
+    Record *record = [[Record alloc] init];
+    
+    [self.mainViewController setRecord:record];
+    [releaseFlipsideViewController setRecord:record];
+    
+  
     [self.window makeKeyAndVisible];
     return YES;
 }
 
+
+/* Core Data Functions 
 -(NSManagedObjectModel *)managedObjectModel {
     if (managedObjectModel_ != nil) {
         return managedObjectModel_;
@@ -50,6 +59,7 @@
     }
     return persistentStoreCoordinator_;
 }
+*/
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

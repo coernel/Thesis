@@ -40,6 +40,8 @@
 @property (nonatomic, retain) IBOutlet UIButton *viewRecordsButton;
 @property (nonatomic, retain) IBOutlet UIButton *clearAllButton;
 
+@property (retain) Record *record;
+
 
 -(NSString *)dataFilePath;
 - (void)applicationWillTerminate:(NSNotification *)notification;
@@ -47,6 +49,6 @@
 - (IBAction)backgroundTouch:(id)sender;
 - (IBAction)done:(id)sender;
 - (IBAction)showTable:(id)sender;
-- (Record *)record;
+
 
 @end
